@@ -35,7 +35,7 @@ Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
 
 When a failover to a backup WAN link occurs (192.168.0.1) it would look like this:
 
-{{
+{{{
 server:~# route -n
 Kernel IP routing table
 Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
