@@ -17,9 +17,21 @@ WFS changes the default gateway and thus the default route to which all traffic 
 
 == Restore primary WAN link ==
 
-When executed, WFS adds static routes for the two target hosts that are used for availability monitoring. These routes specifically use the router/gateway for the primary WAN interface, even if the default gateway is switched to the failover connection. 
+When executed, WFS adds static routes for the two target hosts that are used for availability monitoring. These routes specifically use the router/gateway for the primary WAN interface, even if the default gateway is switched to the failover connection.
 
-This allows WFS to monitor if the primary WAN interface is still down or back up again. If the latter is true, then WFS will switch the default route back to the primary interface.
+This allows WFS to monitor if the primary WAN interface is still down or back up again. If the latter is true, then WFS will switch the default route back to the primary interface. Example:
+
+The primary WAN gateway is 10.0.0.1 in this example.
+
+{{{
+server:~# route -n
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+74.125.77.104   10.0.0.1        255.255.255.255 UGH   0      0        0 eth1
+209.85.229.104  10.0.0.1        255.255.255.255 UGH   0      0        0 eth1
+10.0.0.0        0.0.0.0         255.255.255.0   U     0      0        0 eth1
+0.0.0.0         10.0.0.1        0.0.0.0         UG    0      0        0 eth1
+}}}
 
 == Configuration options ==
 
