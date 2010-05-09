@@ -50,7 +50,7 @@ Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
 
 == Configuration options ==
 
-To configure WFS to your needs, edit the WFS script itself.
+To configure WFS to your needs, edit the WFS script itself or edit /etc/wfs.conf.
 
 {{{ 
 PRIMARY_TARGET=74.125.77.104
