@@ -1,5 +1,4 @@
 #summary Manual for version 1.10
-#labels Featured
 
 = Design =
 
