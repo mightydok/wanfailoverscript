@@ -3,7 +3,7 @@
 
 = Design =
 
-WFS checks if your WAN connection is still up by sending ICMP messages to multiple target hosts.
+WFS checks if your WAN connection is still up by sending ICMP messages to multiple target hosts. It automatically switches between primary and secondary WAN link by changing the default gateway.
 
 == Assumption ==
 
