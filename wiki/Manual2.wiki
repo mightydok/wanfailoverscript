@@ -118,7 +118,7 @@ PRIMARY_CMD=""
 SECONDARY_CMD=""
 }}}
 
-These two variables can be used to execute a custom command after a failover or restore is performed.o
+These two variables can be used to execute a custom command after a failover or restore is performed. When switching to the secondary interface, the secondary_cmd command is executed. When switching back to the primary interface, primary_cmd is executed.
 
 == Logging ==
 
