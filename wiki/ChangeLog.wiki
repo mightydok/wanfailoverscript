@@ -1,6 +1,10 @@
 #summary Changelog.
 #labels Featured
 
+=== Version 2.02 (in SVN) ====
+
+  * WFS now checks the maximum latency as specfied in miliseconds. If this threshold is exceeded, a failover is performed. This may be useful for setups where the latency of a connection is as important as the connection itself. Low latency connections for VOIP for example.
+
 === Version 2.01 ====
 
   * WFS permits the user to execute (external) commands when a failover or restore event occurs. This feature did not work properly and has been fixed within this version. You can specify commands to be executed within the config file. Consult the manual for additional information.
