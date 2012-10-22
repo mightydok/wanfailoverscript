@@ -3,6 +3,8 @@
 
 === Version 2.03 ===
 
+Modifications made by Gaven Henry.
+
     * COOLDOWNDELAY - deprecated use COOLDOWNDELAY01 and COOLDOWNDELAY02
     * COOLDOWNDELAY01 - The period of time to wait after a FAILOVER event before commencing monitoring again
     * COOLDOWNDELAY02 - The period of time to wait after a FAILBACK even before commencing monitoring again
