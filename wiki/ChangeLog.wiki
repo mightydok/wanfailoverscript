@@ -1,6 +1,10 @@
 #summary Changelog.
 #labels Featured
 
+=== Version 2.04 ===
+
+   * MAX LATENCY must be stated in seconds not in miliseconds. (not fixed yet).
+
 === Version 2.03 ===
 
 Modifications made by Gaven Henry.
