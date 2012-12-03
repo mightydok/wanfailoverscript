@@ -1,9 +1,9 @@
 #summary Changelog.
 #labels Featured
 
-=== Version 2.04 ===
+=== Version 2.04 === (IN SVN)
 
-   * MAX LATENCY must be stated in seconds not in miliseconds. (not fixed yet).
+   * MAX LATENCY must be stated in seconds not in miliseconds. 
 
 === Version 2.03 ===
 
